@@ -1,0 +1,34 @@
+.board {
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+    min-height: 50px;
+    min-width: 300px;
+    background-color: aliceblue;
+    border: 0px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 1px;
+    margin-left: 1em;
+}
+
+.boardTitle {
+    margin-left: 1em;
+    width: 40%;
+    height: 80%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.userLogoContainer {
+    z-index: 1;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 0px solid white;
+    border-radius: 50%;
+    text-align: right;
+    margin-right: 1em;
+    background-image: url('../../images/userLogo.png');
+    background-size: cover;
+}

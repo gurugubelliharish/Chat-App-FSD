@@ -1,0 +1,58 @@
+.registerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.registerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 30vw;
+    min-width: 400px;
+    min-height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px 5px;
+}
+
+.registerLabel {
+    font-size: x-large;
+}
+
+.registerInput {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 10px;
+    margin: .5em;
+    font-size: medium;
+    text-align: center;
+    color: rgb(0, 170, 255);
+}
+
+.registerMessage{
+    color: red;
+    font-size: medium;
+}
+
+.registerButton {
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: large;
+    background-color: rgb(0, 110, 255);
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.registerButton:hover {
+    background-color: rgb(3, 93, 211);
+}

@@ -1,0 +1,21 @@
+.userListItem {
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.userLogo {
+    width: 50px;
+    height: 50px;
+    border: .5px solid grey;
+    margin: 3px;
+    border-radius: 50%;
+    background-image: url('../../images/userLogo.png');
+    background-size: cover;
+}
+
+.userDetails {
+    width: 50%;
+    padding: .5em;
+    text-align: right;
+    color: rgb(0, 110, 255);
+}
